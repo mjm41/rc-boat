@@ -24,24 +24,24 @@ This README is a build log with photos, wiring, and lessons learned (including h
 ### 1) Cut out top + add splash cover
 Cut out the middle of the toy boat top and **super-glue** a plastic cover in place for splash protection.
 
-![Step 1 - toyboat top](docs/01-Toy-Boat-Top.HEIC)
+![Step 1 - toyboat top](docs/01-Toy-Boat-Top.jpg)
 
 ### 2) Attach rudder (epoxy centered on stern)
 Rudder mount is centered on the stern using plastic epoxy.
 
-![Step 2 - rudder attached](docs/02-rudder-attached.HEIC)
+![Step 2 - rudder attached](docs/02-rudder-attached.jpg)
 
 ### 3) Epoxy four posts for the L298N mount
 Set **4 posts in epoxy** to hold the L298N motor driver above the hull.
 
-![Step 3 - posts for L298N](docs/03-posts-l298n.HEIC)
+![Step 3 - posts for L298N](docs/03-posts-l298n.jpg)
 
 ### 4) Epoxy motors + servo
 Epoxy:
 - **2x DC motors** (propulsion)
 - **1x servo** (rudder control)
 
-![Step 4 - motors and servo](docs/04-motors-and-servo.HEIC)
+![Step 4 - motors and servo](docs/04-motors-and-servo.jpg)
 
 ### 5) L298N motor outputs wiring
 Motor wiring on the L298N output terminals:
@@ -49,12 +49,12 @@ Motor wiring on the L298N output terminals:
 - **Motor 1**: `+ -> OUT2`, `- -> OUT1`
 - **Motor 2**: `+ -> OUT4`, `- -> OUT3`
 
-![Step 5 - L298N motor wiring](docs/05-l298n-outs.HEIC)
+![Step 5 - L298N motor wiring](docs/05-l298n-outs.jpg)
 
 ### 6) Build a boat holder (rudder broke twice)
 We snapped the rudder off twice, so we built a holder/stand to keep the boat stable during work + testing.
 
-![Step 6 - boat holder](docs/06-boat-holder.HEIC)
+![Step 6 - boat holder](docs/06-boat-holder.jpg)
 
 ### 7) Connect L298N EN/IN + servo signal to ESP8266 (pin map)
 Pin mapping (ESP8266 GPIO):
@@ -77,7 +77,7 @@ servoPin    = GPIO0;
 - **6V (4x AAA)** battery pack → **VIN** on ESP8266
 - **All grounds** tied together to a **common central point**
 
-![Step 7 - connect ESP pins](docs/07-esp-pins.HEIC)
+![Step 7 - connect ESP pins](docs/07-esp-pins.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ servoPin    = GPIO0;
 - **Switch #1:** controls power to the **L298N**
 - **Switch #2:** controls power to the **ESP8266** (also powers the **servo**)
 
-![Step 8 - power switches](docs/08-power-switches.HEIC)
+![Step 8 - power switches](docs/08-power-switches.jpg)
 
 ---
 
@@ -95,7 +95,7 @@ servoPin    = GPIO0;
 Stretch out a paper clip to connect the servo horn to the rudder.  
 Loop it around the connectors so it won’t pop off easily.
 
-![Step 9 - connect servo to rudder](docs/09-servo-rudder.HEIC)
+![Step 9 - connect servo to rudder](docs/09-servo-rudder.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Loop it around the connectors so it won’t pop off easily.
 
 Insert the propeller screws onto the motor/propeller shafts.
 
-![Step 10 - install propeller screws](docs/10-propeller-screws.HEIC)
+![Step 10 - install propeller screws](docs/10-propeller-screws.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ Check the boat trim in a bathroom sink:
 - Not too heavy at stern or bow
 - Rudder centered
 
-![Step 11 - trim test](docs/11-trim-test.HEIC)
+![Step 11 - trim test](docs/11-trim-test.jpg)
 
 ---
 
@@ -123,14 +123,14 @@ Check the boat trim in a bathroom sink:
 
 Cover the hull with plastic wrap and use electrical tape to hold it down as an extra splash barrier.
 
-![Step 12 - extra protection](docs/12-extra-protection.HEIC)
+![Step 12 - extra protection](docs/12-extra-protection.jpg)
 ---
 
 ### 13) Reattach the toy boat top
 
 Reconnect the boat top to complete the assembly.
 
-![Step 13 - reattach top](docs/13-reattach-top.HEIC)
+![Step 13 - reattach top](docs/13-reattach-top.jpg)
 
 ---
 
@@ -143,7 +143,7 @@ Controller build:
 - On/off switch
 - 9V battery on the back, secured with electrical tape
 
-![Step 14 - build controller](docs/14-build-controller.HEIC)
+![Step 14 - build controller](docs/14-build-controller.jpg)
 ---
 
 ## Wiring Summary
