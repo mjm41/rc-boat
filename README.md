@@ -1,12 +1,12 @@
 # RC Toy Boat Conversion (ESP8266 + L298N + Servo Rudder)
 
-This project converts a cheap toy RC boat into a WiFi-controlled boat using:
+This project turned a plastic bathtube toy into a WiFi-controlled RC boat using:
 - **ESP8266** (boat firmware)
 - **L298N** dual H-bridge (2x DC motors)
 - **Servo** for rudder steering
 - A handheld controller built from an **Arduino UNO R4 WiFi + Modulino joystick**
 
-The README is a build log with photos, wiring, and lessons learned (including how we stopped snapping the rudder off).
+This README is a build log with photos, wiring, and lessons learned (including how we stopped snapping the rudder off).
 
 ---
 
