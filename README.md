@@ -12,12 +12,7 @@ The README is a build log with photos, wiring, and lessons learned (including ho
 
 ## Demo Video
 
-🎥 **Video:** *(add link here)*
-- Recommended: upload to YouTube (unlisted) and paste the link.
-- Alternate: store via Git LFS or as a GitHub Release asset.
-
-Example thumbnail link:
-
+🎥 **Video:**
 [RC Boat Demo](https://youtube.com/shorts/XjPl-BF36Mk)
 
 ---
