@@ -19,8 +19,6 @@ This README is a build log with photos, wiring, and lessons learned (including h
 
 ## Build Log (Photos + Steps)
 
-> Photos live in `docs/` and are referenced below.
-
 ### 1) Cut out top + add splash cover
 Cut out the middle of the toy boat top and **super-glue** a plastic cover in place for splash protection.
 
@@ -169,7 +167,7 @@ Controller build:
 
 ---
 
-## Parts List (BOM)
+## Parts List
 
 ### Boat
 - Toy RC boat hull + top
@@ -201,12 +199,12 @@ Controller build:
 - First attempt: servo worked but DC motors did not. I was using 4x AAA for DC motors. When I upgraded to 9V, the motors worked without issue. 
 - Second attempt: boat spun uncontrollably. propellers must spin in opposite direction to move in a straight line. Fixed via software upgrade.
 - Third attempt: power was on for all electronics but no signals were being tx/rx from controller to boat. Upgraded controller to 9V and it worked fine after that. 
-- Still an issue: left screw often times doesn't spin. Actively troubleshooting. 
-- There is a constant humming which i take to be due to not turning pins to LOW when not using. Actively troubleshooting.
-- The design decision to use 1x joystick was not smart. You can't do fast turns because when you move joystick all the way to side, it completely slows down (y moves towards center). I'm considering using the button in the joystick and writing code that uses that as a speed autopilot so I can maintain a faster speed while moving rudder. 
+- Still an issue: left screw often doesn't spin. Actively troubleshooting. 
+- There is a constant humming which I take to be due to not turning pins to LOW when not using. Actively troubleshooting.
+- The design decision to use 1x joystick was not smart. You can't do fast turns because when you move joystick all the way to side, it completely slows down (y-axis moves towards center). I'm considering using the button in the joystick and writing code that uses that as a speed autopilot so I can maintain a faster speed while moving rudder. 
 
 ---
 
 ## License
-MIT
+This project is licensed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
